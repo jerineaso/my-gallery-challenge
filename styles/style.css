@@ -172,6 +172,9 @@ footer p a {
 }
 
 @media (max-width: 500px) {
+  header .main-box .box {
+    margin-right: 5px;
+  }
   main .container {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);

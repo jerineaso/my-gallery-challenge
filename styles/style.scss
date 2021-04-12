@@ -154,6 +154,13 @@ footer{
 }
 
 @media (max-width: $breakpoint-mobile){
+    header{
+        .main-box{
+            .box{
+                margin-right: 5px;
+            }
+        }
+    }
     main{
     .container{
         grid-template-columns: repeat(1,1fr);
